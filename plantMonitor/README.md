@@ -18,7 +18,7 @@ Second workshop for CASA0014 - 2 - Plant Monitor
 Reference: https://smartgardenguide.com/begonia-maculata-care/
 
 ## Difficulties during the project:
-- Defining the values for the humidity sensor (what values really mean in relation to plant health)
+- Defining the values for the moisture sensor (what values really mean in relation to plant health)
 - My prototype never created consistent or reliable results
 
 ## Plans for the Future:
