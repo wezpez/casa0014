@@ -15,6 +15,8 @@ Second workshop for CASA0014 - 2 - Plant Monitor
 - **Temperature:** Between 18°C and 30°C.
 - **Humidity:** High humidity is important. >45% ideally.
 
+Reference: https://smartgardenguide.com/begonia-maculata-care/
+
 ## Difficulties during the project:
 - Defining the values for the humidity sensor (what values really mean in relation to plant health)
 - My prototype never created consistent or reliable results
