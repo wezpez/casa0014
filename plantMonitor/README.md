@@ -15,11 +15,11 @@ Second workshop for CASA0014 - 2 - Plant Monitor
 - *Temperature:* Between 18°C and 30°C.
 - *Humidity:* High humidity is important. >45% ideally.
 
-Difficulties during the project:
+## Difficulties during the project:
 - Defining the values for the humidity sensor (what values really mean in relation to plant health)
 - My prototype never created consistent or reliable results
 
-Plans for the Future:
+## Plans for the Future:
 - I would like to integrate the solar panel component in oder to give power to the components as well as measure the amount of sunlight the plant is hypothetically getting
 - Add a display to show the data gathered to the user directly
 
