@@ -3,7 +3,7 @@
     and then show data from a DHT22 on a web page served by the Huzzah and
     push data to an MQTT server - uses library from https://pubsubclient.knolleary.net
 
-    Duncan Wilson
+    Duncan Wilson - Patrick Whyte
     CASA0014 - 2 - Plant Monitor Workshop
     May 2020
 */
@@ -30,15 +30,6 @@ DHT dht(DHTPin, DHTTYPE);   // Initialize DHT sensor.
 
 // Wifi and MQTT
 #include "arduino_secrets.h" 
-/*
-**** please enter your sensitive data in the Secret tab/arduino_secrets.h
-**** using format below
-
-#define SECRET_SSID "ssid name"
-#define SECRET_PASS "ssid password"
-#define SECRET_MQTTUSER "user name - eg student"
-#define SECRET_MQTTPASS "password";
- */
 
 const char* ssid     = SECRET_SSID;
 const char* password = SECRET_PASS;
@@ -55,8 +46,6 @@ int value = 0;
 
 // Date and time
 Timezone GB;
-
-
 
 void setup() {
   // Set up LED to be controllable via broker
@@ -104,6 +93,7 @@ void loop() {
   client.loop();
 }
 
+// A moisture level of around 30 means the plant soil could use some more water
 void readMoisture(){
   
   // power the sensor
