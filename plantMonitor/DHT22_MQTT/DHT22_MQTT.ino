@@ -93,7 +93,6 @@ void loop() {
   client.loop();
 }
 
-// A moisture level of around 30 means the plant soil could use some more water
 void readMoisture(){
   
   // power the sensor
